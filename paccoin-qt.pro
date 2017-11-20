@@ -256,6 +256,16 @@ SOURCES += src/qt/paccoin.cpp src/qt/paccoingui.cpp \
     src/qt/rpcconsole.cpp \
     src/noui.cpp \
     src/kernel.cpp
+    src/zerocoin/Accumulator.cpp \
+    src/zerocoin/AccumulatorProofOfKnowledge.cpp \
+    src/zerocoin/Coin.cpp \
+    src/zerocoin/CoinSpend.cpp \
+    src/zerocoin/Commitment.cpp \
+    src/zerocoin/ParamGeneration.cpp \
+    src/zerocoin/Params.cpp \
+    src/zerocoin/SerialNumberSignatureOfKnowledge.cpp \
+    src/zerocoin/SpendMetaData.cpp \
+    src/zerocoin/ZeroTest.cpp
 
 RESOURCES += \
     src/qt/paccoin.qrc
