@@ -132,6 +132,17 @@ HEADERS += src/qt/paccoingui.h \
     src/util.h \
     src/uint256.h \
     src/kernel.h \
+    src/zerocoin/Accumulator.h \
+    src/zerocoin/AccumulatorProofOfKnowledge.h \
+    src/zerocoin/Coin.h \
+    src/zerocoin/CoinSpend.h \
+    src/zerocoin/Commitment.h \
+    src/zerocoin/ParamGeneration.h \
+    src/zerocoin/Params.h \
+    src/zerocoin/SerialNumberSignatureOfKnowledge.h \
+    src/zerocoin/SpendMetaData.h \
+    src/zerocoin/ZeroTest.h \
+    src/zerocoin/Zerocoin.h \
     src/serialize.h \
     src/strlcpy.h \
     src/main.h \
